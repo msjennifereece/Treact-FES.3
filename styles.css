@@ -34,8 +34,22 @@ a {
   text-decoration: none;
 }
 
+.btn {
+  background-color: #6415ff;
+  padding: 12px 32px;
+  color: white;
+  border-radius: 999px;
+  border: none;
+  font-weight: bold;
+}
+
+
 .purple {
   color: #6415ff;
+}
+
+img {
+  width: 100%;
 }
 
 /* NAVIGATION */
@@ -76,17 +90,83 @@ nav {
   font-size: 14px;
 }
 
+.nav__link--signup {
+  color: white;
+}
+
 .nav__list--login {
   margin-left: 24px;
 }
 
-.nav__link--signup {
-  background-color: #6415ff;
-  padding: 12px 32px;
-  color: white;
-  border-radius: 999px;
-  border: none;
-  font-weight: bold;
+/* HEADER */
+
+.header__section {
+  display: flex;
+  align-items: center;
 }
 
-/* HEADER */
+.header__section--left {
+  width: 40%;
+}
+
+.header__img--wrapper {
+  width: 60%;
+}
+
+h1 {
+  font-size: 48px;
+  color: #1a202c;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.header__para {
+  margin: 32px 0;
+}
+
+.our-trusted-customers {
+  font-size: 12px;
+  color: #a0aec0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 80px;
+}
+
+.customer__logo {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: 0.5;
+  height: auto;
+}
+
+.two__column--input {
+  position: relative;
+  max-width: 448px;
+}
+
+input {
+  width: 100%;
+  border-radius: 999px;
+  border: 2px solid #a0aec0;
+  padding: 20px 192px 20px 32px;
+  font-weight: 500;
+  opacity: 0.5;
+  transition: all 300ms ease;
+}
+
+input:hover {
+  border: 2px solid #1a202c;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #6415ff;
+}
+
+.header__btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
