@@ -325,7 +325,6 @@ FEATURES
   justify-content: center;
   width: 30%;
   padding: 32px 8px;
-  margin: 0 16px;
 }
 
 .service__img--container {
@@ -359,9 +358,43 @@ FEATURES
 
 .service__para {
   margin-top: 16px;
-  max-width: 212px;
+  width: 100%;
   color: #7c8ba1;
   font-weight: 500;
   line-height: 2;
 }
 
+@media (max-width: 1024px) {
+  .service {
+    width: 50%;
+    margin: 0;
+  }
+
+  .section__para {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .section__title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .section__para {
+    font-size: 14px;
+    max-width: 336px;
+  }
+  .service {
+    width: 100%;
+    max-width: 336px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service__description {
+    margin: 16px 0 0 0;
+  }
+  .service__title, .service__para {
+    text-align: center;
+  }
+
+}
