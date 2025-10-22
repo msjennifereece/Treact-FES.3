@@ -436,3 +436,15 @@ QUALITY WORK
   width: 100%;
   max-width: 142px;
 }
+
+@media (max-width: 1024px) {
+  .section__description--left {
+    gap: 24px;
+  }
+  .section__title {
+    font-size: 36px;
+  }
+  .section__para {
+    font-size: 16px;
+  }
+}
