@@ -9,137 +9,65 @@
 </head>
 <body>
   <nav>
-    <div class="logo__img--wrapper">
-      <img src="/assets/logo.svg" alt="" class="logo__img">
+    <div class="nav__logo">
+      <img src="/assets/logo.svg" alt="" class="logo">
       <span class="treact">Treact</span>
     </div>
     <ul class="nav__links">
       <li class="nav__list">
-        <a href="" class="nav__link">About</a>
+        <a href="" class="nav__link">
+          About
+        </a>
       </li>
       <li class="nav__list">
-        <a href="" class="nav__link">Blog</a>
+        <a href="" class="nav__link">
+          Blog
+        </a>
       </li>
       <li class="nav__list">
-        <a href="" class="nav__link">Pricing</a>
+        <a href="" class="nav__link">
+          Pricing
+        </a>
       </li>
       <li class="nav__list">
-        <a href="" class="nav__link">Contact Us</a>
+        <a href="" class="nav__link">
+          Contact Us
+        </a>
       </li>
       <li class="nav__list nav__list--login">
-        <a href="" class="nav__link">Login</a>
+        <a href="" class="nav__link">
+          Login
+        </a>
       </li>
       <li class="nav__list">
-        <a href="" class="nav__link nav__link--signup btn">Sign Up</a>
+        <button class="btn nav__signup--btn">
+          <a href="" class="nav__link">
+            Sign Up
+          </a>
+        </button>
       </li>
     </ul>
   </nav>
   <header>
-    <div class="container">
-      <div class="row">
-        <div class="header__section header__description--center">
-          <div class="header__description--left">
-            <h1>Beautiful React Templates <span class="purple">for you.</span></h1>
-            <p class="header__para">
-              Our templates are easy to setup, undersrand and customize. Fully modular components with a variety of pages and components.
-            </p>
-            <div class="two__column--input">
-              <input type="text" placeholder="Your E-mail Address"></input>
-              <button class="header__btn btn">Get Started</button>
-            </div>
-            <p class="our-trusted-customers">our trusted customers</p>
-            <img class="customer__logo" src="/assets/customer-logo.png" alt="">
-          </div>
-          <figure class="header__img--wrapper">
-            <img class="header__img" src="/assets/header-img.svg" alt="">
-          </figure>
-        </div>
+    <div class="header__description">
+      <h1 class="header__title">Beautiful React Templates <span class="purple">for you.</span></h1>
+      <p class="header__para">
+        Our templates are easy to set up, understand and customize. Fully modular components with a variety of pages and components.
+      </p>
+      <div class="input__email">
+        <input class="email" type="email" placeholder="Your E-mail Address">
+        <button class="email__btn">Get Started</button>
+      </div>
+      <div class="customers__logo">
+        <p class="customer">OUR TRUSTED COSTUMERS</p>
+        <figure class="customer__logo--wrapper">
+          <img src="/assets/customer-logo.png" alt="" class="customer__logo--img">
+        </figure>
       </div>
     </div>
+    <figure class="header__img--wrapper">
+      <img src="/assets/header-img.svg" alt="" class="header__img">
+    </figure>
   </header>
-  <section id="features">
-    <div class="container">
-      <div class="row">
-        <div class="section__description--center">
-          <h2>FEATURES</h2>
-          <div class="section__title">We have Amazing <span class="purple">Service.</span></div>
-          <p class="section__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="services">
-            <div class="service">
-              <figure class="service__img--container">
-                <img src="/assets/secure.svg" alt="" class="service__img">
-              </figure>
-              <div class="service__description">
-                <div class="service__title">Secure</div>
-                <div class="service__para">We strictly only deal with vendors that provide top notch security.</div>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--container">
-                <img src="/assets/24.7 support.svg" alt="" class="service__img">
-              </figure>
-              <div class="service__description">
-                <div class="service__title">24/7 Support</div>
-                <div class="service__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</div>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--container">
-                <img src="/assets/customizable.svg" alt="" class="service__img">
-              </figure>
-              <div class="service__description">
-                <div class="service__title">Customizable</div>
-                <div class="service__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</div>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--container">
-                <img src="/assets/reliable.svg" alt="" class="service__img">
-              </figure>
-              <div class="service__description">
-                <div class="service__title">Reliable</div>
-                <div class="service__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</div>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--container">
-                <img src="/assets/fast.svg" alt="" class="service__img">
-              </figure>
-              <div class="service__description">
-                <div class="service__title">Fast</div>
-                <div class="service__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</div>
-              </div>
-            </div>
-            <div class="service">
-              <figure class="service__img--container">
-                <img src="/assets/easy.svg" alt="" class="service__img">
-              </figure>
-              <div class="service__description">
-                <div class="service__title">Easy</div>
-                <div class="service__para">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="quality-work">
-    <div class="container">
-      <div class="row">
-        <div class="section__description--left">
-          <div class="section__description">
-            <h2>QUALITY WORK</h2>
-            <div class="section__title">Designed & Developed by <span class="purple">Professionals.</span></div>
-            <div class="section__para quality-work__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            <button class="btn quality-work__btn">Learn More</button>
-          </div>
-          <figure class="quality-work__img--wrapper">
-            <img src="/assets/quality-work-img.png" alt="" class="quality-work__img">
-          </figure>
-        </div>
-      </div>
-    </div>
-  </section>
 </body>
 </html>
